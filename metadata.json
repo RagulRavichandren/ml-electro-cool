@@ -1,0 +1,6 @@
+{
+  "name": "ThermalML — Heat Sink & Fan Selection",
+  "description": "ML-powered thermal engineering suite for heat sink sizing and fan recommendation using RF + XGBoost ensemble models.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

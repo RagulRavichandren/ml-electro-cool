@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body, html {
+    font-family: "Times New Roman", Times, serif, system-ui;
+  }
+}
+
+/* Custom Times New Roman typography override */
+.font-serif-tnr {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Electronic components background styling */
+.bg-electronic-board {
+  background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.88), rgba(15, 23, 42, 0.94)),
+    url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2000&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-circuit-card {
+  background-image: linear-gradient(to bottom, rgba(15, 23, 42, 0.92), rgba(30, 41, 59, 0.95)),
+    url('https://images.unsplash.com/photo-1591488320449-011701bb6704?q=80&w=1000&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-component-chip {
+  background-image: linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.88)),
+    url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+}
